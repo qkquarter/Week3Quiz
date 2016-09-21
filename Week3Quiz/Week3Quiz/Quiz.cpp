@@ -29,16 +29,16 @@ void drawline2(const int& i0, const int& j0, const int& i1, const int&j1, const 
 }
 /*void drawcircle(const int& i0, const int& j0, const int& radius, const float&red, const float& green, const float& blue)
 {
-	for (double i = 0; i < i0 + radius; i += 0.1)
-	{
-		for (double j = 0; j < j0 + radius; j += 0.1)
-		{
-			//if ( (i0 - i) * (i0 - i) + (j0 - j) * (j0 - j) > radius*radius)
-			if (radius* (radius - 1) < (i - radius)*(i - radius) + (j - radius)*(j - radius)
-					&& radius * (radius - 1) > (i - radius)*(i - radius) + (j - radius)*(j - radius))
-				drawPixel(i, j, red, green, blue);
-		}
-	}
+for (double i = 0; i < i0 + radius; i += 0.1)
+{
+for (double j = 0; j < j0 + radius; j += 0.1)
+{
+//if ( (i0 - i) * (i0 - i) + (j0 - j) * (j0 - j) > radius*radius)
+if (radius* (radius - 1) < (i - radius)*(i - radius) + (j - radius)*(j - radius)
+&& radius * (radius - 1) > (i - radius)*(i - radius) + (j - radius)*(j - radius))
+drawPixel(i, j, red, green, blue);
+}
+}
 }*/
 void drawOnPixelBuffer()
 {
